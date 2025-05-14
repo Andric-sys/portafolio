@@ -19,12 +19,56 @@
 
         <section id="sobre-mi">
             <img src="img/andric.png" alt="Andric" class="profile-image" />
-            <h1>Sobre mí</h1>
+            <h1>SOBRE MÍ</h1>
             <h2>Soy un apasionado de la tecnología, diseño y sistemas web. Combino creatividad con funcionalidad para
                 lograr resultados con impacto.</h2>
             <p>Me gusta aprender y enfrentar nuevos retos. Siempre busco mejorar mis habilidades y conocimientos.</p>
         </section>
 
+    </center>
+<center>
+    <!-- From Uiverse.io by BlackisPlay -->
+    <div id="ghost">
+        <div id="red">
+            <div id="pupil"></div>
+            <div id="pupil1"></div>
+            <div id="eye"></div>
+            <div id="eye1"></div>
+            <div id="top0"></div>
+            <div id="top1"></div>
+            <div id="top2"></div>
+            <div id="top3"></div>
+            <div id="top4"></div>
+            <div id="st0"></div>
+            <div id="st1"></div>
+            <div id="st2"></div>
+            <div id="st3"></div>
+            <div id="st4"></div>
+            <div id="st5"></div>
+            <div id="an1"></div>
+            <div id="an2"></div>
+            <div id="an3"></div>
+            <div id="an4"></div>
+            <div id="an5"></div>
+            <div id="an6"></div>
+            <div id="an7"></div>
+            <div id="an8"></div>
+            <div id="an9"></div>
+            <div id="an10"></div>
+            <div id="an11"></div>
+            <div id="an12"></div>
+            <div id="an13"></div>
+            <div id="an14"></div>
+            <div id="an15"></div>
+            <div id="an16"></div>
+            <div id="an17"></div>
+            <div id="an18"></div>
+        </div>
+        <div id="shadow"></div>
+    </div>
+</center>
+
+    <center>
         <section id="proyectos">
             <h2>Proyectos</h2>
             <div class="cards-container">
@@ -32,11 +76,14 @@
                     <img src="img/tikets.jpg" alt="Sistema PHP">
                     <h3>Proyectos con bases de datos</h3>
                     <p>Gestión de soporte técnico para negocios.</p>
+
                 </div>
                 <div class="card">
                     <img src="img/invitaciones.jpg" alt="Diseño de Invitaciones">
                     <h3>Diseño de Invitaciones</h3>
                     <p>Invitaciones personalizadas con código QR.</p>
+                    <button class="button"
+                        onclick="window.open('https://andric-sys.github.io/PlantillaXV/', '_blank')">Ver</button>
                 </div>
                 <div class="card">
                     <img src="img/streaming.jpg" alt="Setup Streaming">
@@ -73,57 +120,57 @@
         </section>
     </center>
 
-            <section id="contacto">
-                <h2>Contacto</h2>
-                <form id="contactForm">
-                    <input type="text" id="nombre" placeholder="Tu nombre" required />
-                    <input type="email" id="correo" placeholder="Tu correo" required />
-                    <textarea id="mensaje" placeholder="Tu mensaje" required></textarea>
-                    <button type="submit">Enviar</button>
-                </form>
-                <p id="respuesta"></p>
-            </section>
-            <h3>¿Quieres saber más sobre mí?</h3>
-            <p>¡No dudes en contactarme! Estoy aquí para ayudarte.</p>
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <form id="contactForm">
+            <input type="text" id="nombre" placeholder="Tu nombre" required />
+            <input type="email" id="correo" placeholder="Tu correo" required />
+            <textarea id="mensaje" placeholder="Tu mensaje" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+        <p id="respuesta"></p>
+    </section>
+    <h3>¿Quieres saber más sobre mí?</h3>
+    <p>¡No dudes en contactarme! Estoy aquí para ayudarte.</p>
 
 
-        <footer>
-            <p>© 2025 Andric. Todos los derechos reservados.</p>
-        </footer>
-        <!-- Cargar la librería con defer para asegurar que se defina antes -->
-        <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js" defer></script>
+    <footer>
+        <p>© 2025 Andric. Todos los derechos reservados.</p>
+    </footer>
+    <!-- Cargar la librería con defer para asegurar que se defina antes -->
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js" defer></script>
 
-        <script defer>
-            window.addEventListener('DOMContentLoaded', () => {
-                const client = window.supabase.createClient(
-                    'https://euwfnkpjxcrbhlgqhfpk.supabase.co',
-                    'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImV1d2Zua3BqeGNyYmhsZ3FoZnBrIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDcyMzQ3NjQsImV4cCI6MjA2MjgxMDc2NH0.fT0Q1iLQbLYDTL_JdlEE9sDYBwgdaroUO_DxqYC-Ipo'
-                );
+    <script defer>
+        window.addEventListener('DOMContentLoaded', () => {
+            const client = window.supabase.createClient(
+                'https://euwfnkpjxcrbhlgqhfpk.supabase.co',
+                'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImV1d2Zua3BqeGNyYmhsZ3FoZnBrIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDcyMzQ3NjQsImV4cCI6MjA2MjgxMDc2NH0.fT0Q1iLQbLYDTL_JdlEE9sDYBwgdaroUO_DxqYC-Ipo'
+            );
 
-                const form = document.getElementById("contactForm");
-                const respuesta = document.getElementById("respuesta");
+            const form = document.getElementById("contactForm");
+            const respuesta = document.getElementById("respuesta");
 
-                form.addEventListener("submit", async function (e) {
-                    e.preventDefault();
+            form.addEventListener("submit", async function (e) {
+                e.preventDefault();
 
-                    const nombre = document.getElementById("nombre").value;
-                    const correo = document.getElementById("correo").value;
-                    const mensaje = document.getElementById("mensaje").value;
+                const nombre = document.getElementById("nombre").value;
+                const correo = document.getElementById("correo").value;
+                const mensaje = document.getElementById("mensaje").value;
 
-                    const { data, error } = await client
-                        .from('mensajes_contacto')
-                        .insert([{ nombre, correo, mensaje }]);
+                const { data, error } = await client
+                    .from('mensajes_contacto')
+                    .insert([{ nombre, correo, mensaje }]);
 
-                    if (error) {
-                        respuesta.textContent = "Error al enviar mensaje 😓";
-                        console.error(error);
-                    } else {
-                        respuesta.textContent = "¡Mensaje enviado con éxito! 🎉";
-                        form.reset();
-                    }
-                });
+                if (error) {
+                    respuesta.textContent = "Error al enviar mensaje 😓";
+                    console.error(error);
+                } else {
+                    respuesta.textContent = "¡Mensaje enviado con éxito! 🎉";
+                    form.reset();
+                }
             });
-        </script>
+        });
+    </script>
 
 
 
